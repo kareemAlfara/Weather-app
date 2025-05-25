@@ -2,8 +2,8 @@ import 'package:bloc/bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_app/cubit/weatherCubit/weatherstate.dart';
-import 'package:weather_app/models/weathermodel.dart';
-import 'package:weather_app/services/Weatherservices.dart';
+import 'package:weather_app/data/models/weathermodel.dart';
+import 'package:weather_app/data/repositories/Weatherservices.dart';
 
 class Weathercubit extends Cubit<Weatherstate> {
   Weathercubit() : super(weatherIntialState());

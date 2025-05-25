@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_app/Modules/NosearchingPage.dart';
-import 'package:weather_app/Modules/searchingPage.dart';
-import 'package:weather_app/Modules/weatherBody.dart';
-import 'package:weather_app/components/components.dart';
+import 'package:weather_app/presentation/screens/NosearchingPage.dart';
+import 'package:weather_app/presentation/widget/searchingPage.dart';
+import 'package:weather_app/presentation/widget/weatherBody.dart';
+import 'package:weather_app/services/components/components.dart';
 import 'package:weather_app/cubit/weatherCubit/weatherCubit.dart';
 import 'package:weather_app/cubit/weatherCubit/weatherstate.dart';
 

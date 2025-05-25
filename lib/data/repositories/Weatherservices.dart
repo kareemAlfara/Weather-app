@@ -1,6 +1,6 @@
 // "https://api.weatherapi.com/v1/forecast.json?key=cd321da97aac408f8fc125209231109&q=cairo&aqi=no&alert=no"
 import 'package:dio/dio.dart';
-import 'package:weather_app/models/weathermodel.dart';
+import 'package:weather_app/data/models/weathermodel.dart';
 
 class Services {
   final Dio dio;

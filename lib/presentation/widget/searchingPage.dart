@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:weather_app/components/components.dart';
+import 'package:weather_app/services/components/components.dart';
 import 'package:weather_app/cubit/weatherCubit/weatherCubit.dart';
-import 'package:weather_app/models/weathermodel.dart';
+import 'package:weather_app/data/models/weathermodel.dart';
 
 class Searchingpage extends StatefulWidget {
   const Searchingpage({super.key});

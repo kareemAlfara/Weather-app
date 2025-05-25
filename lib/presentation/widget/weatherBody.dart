@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/components/components.dart';
+import 'package:weather_app/services/components/components.dart';
 import 'package:weather_app/main.dart';
-import 'package:weather_app/models/weathermodel.dart';
+import 'package:weather_app/data/models/weathermodel.dart';
 import 'package:intl/intl.dart' as intl;
 
 class Weatherbody extends StatelessWidget {

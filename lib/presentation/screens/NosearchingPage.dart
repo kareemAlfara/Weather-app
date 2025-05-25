@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/components/components.dart';
+import 'package:weather_app/services/components/components.dart';
 
 
 class NosearchingPage extends StatelessWidget {
